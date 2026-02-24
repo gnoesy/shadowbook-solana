@@ -127,3 +127,9 @@ It aims to remove unnecessary exposure from execution.
 ---
 
 ## 📦 Repository Structure
+
+---
+
+## 🖥 Dashboard Mock
+
+A simple UI mock is included at: `app/index.html`
