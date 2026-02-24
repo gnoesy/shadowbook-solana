@@ -1,5 +1,5 @@
 # ShadowBook (Solana + Arcium)
-
+> A minimal experiment exploring how Arcium can reduce adversarial behavior in perpetual markets by hiding trader intent.
 ShadowBook is a minimal perps sandbox built on Solana that explores how trader intent can remain private.
 
 Traditional perpetual exchanges expose positions, liquidation prices, and order intent.  
@@ -145,3 +145,18 @@ A simple UI mock is included at: `app/index.html`
 5. Only final settlement delta is revealed on-chain.
 
 This demonstrates how trader intent can remain hidden while preserving transparent settlement.
+
+---
+
+## 🌍 Potential Impact
+
+Traditional perps transparency can unintentionally enable adversarial strategies.
+
+By moving liquidation checks and PnL computation into Arcium’s encrypted execution layer, ShadowBook explores:
+
+- Reduced targeted liquidation risk  
+- Lower copy-trading surface  
+- Cleaner liquidity behavior  
+- Intent-hidden trading environments  
+
+This prototype is an exploration of what confidential execution could mean for on-chain derivatives.
