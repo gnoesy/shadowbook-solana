@@ -67,6 +67,7 @@ ShadowBook consists of two layers:
 
 Arcium handles encrypted compute.  
 Solana handles settlement and state anchoring.
+![ShadowBook Architecture](architecture.png)
 
 ---
 
