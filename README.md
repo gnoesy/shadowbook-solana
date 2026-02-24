@@ -131,7 +131,7 @@ It aims to remove unnecessary exposure from execution.
 ---
 
 ## 🖥 Dashboard Mock
-
+![ShadowBook Dashboard Preview](dashboard-preview.png)
 A simple UI mock is included at: `app/index.html`
 
 ---
