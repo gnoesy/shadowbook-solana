@@ -67,7 +67,19 @@ ShadowBook consists of two layers:
 
 Arcium handles encrypted compute.  
 Solana handles settlement and state anchoring.
+
 ![ShadowBook Architecture](architecture.png)
+
+---
+
+## 🧩 Code Skeleton Status
+
+This repo currently includes minimal code skeletons to show where:
+
+- Encrypted position data is stored on Solana (`programs/perps_public/`)
+- Liquidation checks and PnL compute privately in Arcium MXE (`programs/perps_confidential/`)
+
+These are placeholders to clarify structure before full integration.
 
 ---
 
