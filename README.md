@@ -133,3 +133,15 @@ It aims to remove unnecessary exposure from execution.
 ## 🖥 Dashboard Mock
 
 A simple UI mock is included at: `app/index.html`
+
+---
+
+## 🧪 Demo Flow
+
+1. User opens a position (encrypted client-side).
+2. Encrypted position data is stored on Solana.
+3. Arcium MXE performs private liquidation checks.
+4. Arcium computes PnL privately.
+5. Only final settlement delta is revealed on-chain.
+
+This demonstrates how trader intent can remain hidden while preserving transparent settlement.
